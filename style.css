@@ -1,0 +1,59 @@
+    #main {
+        display: grid;
+        grid-template-areas: 'foto foto edit' 'opcoes opcoes opcoes';
+        background-color: #0C0B0B;
+        color: #B7B7B7;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #figura {
+        grid-area: foto;
+    }
+    
+    #edit {
+        grid-area: edit;
+        margin: auto;
+    }
+    
+    #foto {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .opcao {
+        grid-area: opcoes;
+        display: grid;
+        grid-template-areas: 'projeto estrela seguidor';
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: 5%;
+    }
+    
+    .cabecalho {}
+    
+    #project {
+        grid-area: projeto;
+        background-color: #046313;
+        border-radius: 15%;
+        width: 50%;
+        height: 50%;
+    }
+    
+    #start {
+        grid-area: estrela;
+        background-color: #044A7D;
+        border-radius: 15%;
+        width: 50%;
+        height: 50%;
+    }
+    
+    #follow {
+        grid-area: seguidor;
+        background-color: #725200;
+        border-radius: 15%;
+        width: 50%;
+        height: 50%;
+    }
